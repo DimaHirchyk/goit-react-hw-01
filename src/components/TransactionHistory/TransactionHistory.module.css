@@ -1,0 +1,23 @@
+/* TransactionHistory.module.css */
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 2px solid #1f1f1f;
+  padding: 5px;
+  text-align: left;
+}
+
+table th {
+  background-color: #292828;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background-color: grey;
+}
