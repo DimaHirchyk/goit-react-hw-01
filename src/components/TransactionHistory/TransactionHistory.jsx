@@ -1,5 +1,5 @@
 import Table from "./table/table";
-import style from "./TransactionHistory.module.css";
+import "./TransactionHistory.css";
 export default function TransactionHistory({ items }) {
   return (
     <>
